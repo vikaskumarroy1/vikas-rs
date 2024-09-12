@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    transition: all;
+}
+
+
+.logo{
+    font-size: 33px;
+    color: white;
+    
+  
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    transition: 1s;
+}
+nav ul li a:hover{
+    color: blue;
+    font-size: x-large;
+    
+
+}
+nav ul li{
+    margin: 0 5px;
+   
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+   
+    padding: 0px 5px 0 5px;
+    border-radius: 10%;
+
+    
+   
+
+}
+nav ul li a:hover{
+
+    background-color: black;
+}
+nav ul li a:hover :active{
+
+    background-color: black;
+}
+.image {
+    width: 100%;
+    height: 900px; /* Default height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+@media (max-width:500px) {
+    body{
+        display: flex;
+    }
+   
+    nav{
+        height: 100vh;
+        width: 100px;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+      
+        padding: 0px 150px 0px 100px;
+
+    }
+    .logo{
+        margin-bottom: 700px;
+        margin-right: -20px;
+      
+    }
+   nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 110px;
+   }
+   nav ul li{
+    font-size: 20px;
+    font-weight: 500px;
+    background-color: blueviolet;
+    border-radius: 20%;
+
+   }
+   nav ul li a{
+    font-size: 20px;
+    font-weight: 500px;
+    background-color: blueviolet;
+    border-radius: 20%;
+   }
+
+}
